@@ -1,6 +1,6 @@
 {
-  "name": "magento/sample-module-newpage",
-  "description": "A Magento 2 module that creates a new page",
+  "name": "magento/sample-module-block",
+  "description": "A Magento 2 module that creates a block",
   "type": "magento2-module",
   "version": "1.0.0",
   "license": [
@@ -16,7 +16,7 @@
     "map": [
       [
         "*",
-        "Magento/SampleNewPage"
+        "Magento/SampleBlock"
       ]
     ]
   }
