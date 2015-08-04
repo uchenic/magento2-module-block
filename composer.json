@@ -1,5 +1,5 @@
 {
-  "name": "magento/sample-module-block",
+  "name": "uchenic/sample-module-block",
   "description": "A Magento 2 module that creates a block",
   "type": "magento2-module",
   "version": "1.0.0",
@@ -9,7 +9,7 @@
   ],
   "require": {
     "php": "~5.5.0|~5.6.0",
-    "magento/framework": "~0.74",
+    "magento/framework": "*",
     "magento/magento-composer-installer": "*"
   },
   "extra": {
