@@ -1,24 +1,19 @@
 {
-  "name": "uchenic/sample-module-block",
-  "description": "A Magento 2 module that creates a block",
-  "type": "magento2-module",
-  "version": "1.0.0-alpha",
-  "license": [
-    "OSL-3.0",
-    "AFL-3.0"
-  ],
-
-  "require": {
-    "php": "~5.5.0|~5.6.0",
-    "magento/framework": "*",
-    "magento/magento-composer-installer": "*"
-  },
-  "extra": {
-    "map": [
-      [
-        "*",
-        "Magento/SampleBlock"
-      ]
-    ]
-  }
+    "name": "uchenic/sample-module-block",
+    "description": "A simple customer avatar module.",
+    "type": "magento2-module",
+    "version": "0.5.2-stable",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "autoload": {
+    "psr-4": { "Magento\\SampleBlock\\": "" },
+    "files": [ "registration.php" ]
+    }
+    
 }
