@@ -13,7 +13,7 @@
     </head>
     <body>
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" template="Magento_SampleBlock::main.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" template="Magento_SampleBlock::menu.phtml"/>
         </referenceContainer>
     </body>
 </page>
